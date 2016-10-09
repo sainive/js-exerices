@@ -1,0 +1,28 @@
+1.What is scope? Your explanation should include the idea of global vs. local scope.
+
+-Scope of a variable is how long a variable lives.
+Local Scope:The particular variable dies once the program ends.
+Global Scope:The variable will be alive and can be referred any time.
+
+2.Explain JavaScript's strict mode:
+
+a.It will avoid the usage of global variable.
+b.Repeated variable name.
+c.’this’ should be inside function(strict will make sure it is).
+d.Any code error.
+
+3.Explain variable hoisting in JavaScript:
+
+hoisting, a peculiarity arising from the way that JavaScript reads variables when it's parsing and executing code.
+
+
+4.Why are global variables avoided?
+Usually a function will alter the global variable name present .
+Local scope variable will override the global scope variable. 
+
+
+
+5.What are side effects, and what is a pure function?
+
+Side effects are when a function reaches outside its local scope up to an parent scope and alter outer variable in parent scope.
+
